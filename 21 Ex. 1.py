@@ -1,9 +1,7 @@
-# Demo ( Copy the code below )
-
-
-
 # Task
 
+# Display the numbers from 5 to 12 plus 4
+# ( using a while loop )
 
 
 
@@ -22,7 +20,7 @@
 
 print(" ------- Task -------")
 
-
-
-
-19 While Loops 3.py
+num = 5
+while(num<13):
+    print(num+4)
+    num+=1
