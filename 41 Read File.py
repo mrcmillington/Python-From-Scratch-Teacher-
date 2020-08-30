@@ -1,27 +1,6 @@
 # Demo ( Copy the code below )
-
-
-
-# Task
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-print(" ------- Task -------")
-
+f = open("41 africa.txt","r")
+print(f.read())
 
 
 
