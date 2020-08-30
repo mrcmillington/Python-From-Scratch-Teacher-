@@ -1,31 +1,12 @@
 # Demo ( Copy the code below )
 from tkinter import *
-top = Tk()
-greeting = tk.Label(text="Hello, Tkinter")
-greeting.pack()
-top.mainloop()
+root = Tk()
+theLabel = Label(root,text="Hello World")
+theLabel.pack()
+root.mainloop()
 
 
 # Task
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-print(" ------- Task -------")
-
-
-
+# Go through the example above and liberally comment
 
