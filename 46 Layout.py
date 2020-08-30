@@ -16,7 +16,7 @@ root.mainloop()
 # Can you make a Screen containing 3 labels ( text of your choice ).
 # The first 2 should be side by side and the 3rd should be below them.
 
-
+# Merit for anyone who can change the text color of thier labels
 
 
 
