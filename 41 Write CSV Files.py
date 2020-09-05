@@ -30,6 +30,17 @@ file.close()
 
 
 print(" ------- Task -------")
+x=0
+while x<4:
+    name = input("What is your name")
+    eMail = input("What is your e-mail")
+    fl = open("41-eMails.txt", "a")
+    writer = csv.writer(fl, lineterminator='\n')
+    j = [name, eMail]
+    print(j)
+    writer.writerow(j)
+    fl.close()
+    x+=1
 
 
 
